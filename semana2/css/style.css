@@ -1,21 +1,23 @@
-body{
-    font-family: Helvetica, sans-serif;
+body {
+  font-family: Helvetica, sans-serif;
 }
-h1{
-    color:red;
-    background-color: black;
+h1 {
+  color: red;
+  background-color: black;
 }
-h2{
-    background-color: rgb(160, 238, 179);
-    color: green;
+h2 {
+  background-color: rgb(160, 238, 179);
+  color: green;
 }
-p{
-    background-color: yellow;
-    color: blue;
+/*
+p {
+  background-color: yellow;
+  color: blue;
 }
-a{
-    background-color: yellowgreen;
-    color: pink;
+*/
+a {
+  background-color: yellowgreen;
+  color: pink;
 }
 
 /*
@@ -36,18 +38,46 @@ un solo elemento
 /*
 Para poder compartir estilos debemos usar 'class'
 */
-#contenedor-uno{
-    background-color: #09a;
+#contenedor-uno {
+  background-color: #09a;
 }
 
 /*
 real al contenerdor-dos poner un fondo amarillo
 */
 
-#contenedor-dos{
-    background-color: yellow;
+#contenedor-dos {
+  background-color: yellow;
 }
 
 .contenedor-principal {
-    background-color: violet;
+  background-color: violet;
+  padding: 30px;
+}
+
+.btn-ingresar {
+  background-color: rgb(14, 139, 255);
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-registro {
+  font-size: 25px;
+  background-color: red;
+}
+
+.contenedor-form{
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+}
+
+.contenedor-interno-form{
+    padding: 20px
+}
+
+.titulo-form {
+    color: rgb(14, 139, 255);
+    background-color: #fff;
 }
