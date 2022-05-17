@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+
+    <form action="">
+      <!--action: es la dirección hacia donde vamos a enviar los datos del form-->
+      <!--method: es el tipo de metodo HTTP que usaremos para enviar información-->
+      <!--hay 04 tipos GET, POST, PUT, DELETE-->
+      <input
+        type="text"
+        placeholder="Ingrese su nombre "
+        name="name"
+        id="mi_nombre"
+        required
+      />
+
+      <input type="text" name="ip" value="127.0.0.1" readonly />
+      <!-- readonly: si se envia al servidor-->
+      <input type="text" name="numero_hijos" value="5" disabled />
+      <!--disable: no se envia al servidor-->
+
+      <input
+        type="text"
+        placeholder="Ingrese su DNI"
+        name="dni"
+        minlength="8"
+        maxlength="8"
+      />
+
+      <input type="number" step="15" placeholder="Pasos" min="0" max="7500" />
+      <input
+        type="email"
+        placeholder="Ingrese su email "
+        name="email"
+        id="mi_email"
+      />
+
+      <input
+        type="password"
+        placeholder="Ingrese su password "
+        name="password"
+        id="mi_password"
+      />
+
+      <input type="submit" value="Ingresar" />
+    </form>
+  </body>
+</html>
