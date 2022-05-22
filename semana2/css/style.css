@@ -144,7 +144,20 @@ div:hover{
   border: 2px solid #000;
 }
 
-h1: :first-child{
-  color: purple
+h1:first-child{
+  color: purple;
 }
 
+input:first-of-type{
+  color: red;
+}
+
+h2:nth-child(0){
+  color: black;
+}
+
+/*
+.contenedor-interno-form p:nth-child(2){
+  border: 1px red solid;
+}
+*/
