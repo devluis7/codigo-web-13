@@ -1,0 +1,47 @@
+/*
+"*" = Todo
+*/
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor p {
+  color: #f01;
+}
+
+.contenedor-dos p {
+  color: #f01;
+}
+
+.contenedor-tres {
+  border: 2px solid rgb(42, 92, 139);
+}
+
+.menu-navegacion {
+  margin: 20px;
+}
+/*
+ul > li {
+  border: 2px solid rgb(177, 19, 19);
+}
+*/
+.link-navegacion{
+    border: 2px solid rgb(0, 255, 170);
+}
+
+input[type="email"]{
+    background-color: brown;
+}
+
+input[type="text"]{
+    background-color: rgb(0, 255, 170);
+}
+
+input[type="password"]{
+    background-color: rgb(0, 255, 170);
+}
